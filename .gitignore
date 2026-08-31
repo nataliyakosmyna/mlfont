@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Node / SvelteKit (web/)
+node_modules/
+.svelte-kit/
+build/
+
+# Local scratch
+/tmp/
+*.tmp

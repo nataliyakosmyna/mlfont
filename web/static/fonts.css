@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'MIT Media Lab Font';
+  src: url('/fonts/MITMediaLabFont-Thin.ttf?v1788151140-22904') format('truetype'),
+       url('/fonts/MITMediaLabFont-Thin.otf?v1788151140-22904') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MIT Media Lab Font';
+  src: url('/fonts/MITMediaLabFont-Light.ttf?v1788151140-22904') format('truetype'),
+       url('/fonts/MITMediaLabFont-Light.otf?v1788151140-22904') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MIT Media Lab Font';
+  src: url('/fonts/MITMediaLabFont-Regular.ttf?v1788151140-22904') format('truetype'),
+       url('/fonts/MITMediaLabFont-Regular.otf?v1788151140-22904') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MIT Media Lab Font';
+  src: url('/fonts/MITMediaLabFont-Medium.ttf?v1788151140-22904') format('truetype'),
+       url('/fonts/MITMediaLabFont-Medium.otf?v1788151140-22904') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MIT Media Lab Font';
+  src: url('/fonts/MITMediaLabFont-Bold.ttf?v1788151140-22904') format('truetype'),
+       url('/fonts/MITMediaLabFont-Bold.otf?v1788151140-22904') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'MIT Media Lab Font';
+  src: url('/fonts/MITMediaLabFont-Black.ttf?v1788151140-22904') format('truetype'),
+       url('/fonts/MITMediaLabFont-Black.otf?v1788151140-22904') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Light theme — MIT palette: MIT Red (#A31F34) as accent, MIT Cool Gray
+   (#8A8B8C) for muted text, neutral white surfaces over a hairline-warm
+   off-white background. */
+:root {
+  --bg: #f4f4f2;
+  --surface: #ffffff;
+  --fg: #0a0a0a;
+  --muted: #8a8b8c;       /* MIT Cool Gray 9 */
+  --accent: #a31f34;      /* MIT Red (PMS 201) */
+  --accent-hover: #750014;/* MIT Maroon */
+  --line: #d6d5d2;
+  color-scheme: light;
+}
+
+/* Dark theme — keeps the same MIT Red accent (#A31F34) as the light
+   theme so the brand color stays consistent between modes. */
+[data-theme='dark'] {
+  --bg: #0e0e0e;
+  --surface: #1a1a1a;
+  --fg: #ececec;
+  --muted: #8a8b8c;       /* MIT Cool Gray 9 */
+  --accent: #a31f34;      /* MIT Red */
+  --accent-hover: #750014;/* MIT Maroon */
+  --line: #2a2a2a;
+  color-scheme: dark;
+}
+
+/* System theme — when no explicit choice, follow OS preference */
+@media (prefers-color-scheme: dark) {
+  [data-theme='system'] {
+    --bg: #0e0e0e;
+    --surface: #1a1a1a;
+    --fg: #ececec;
+    --muted: #8a8b8c;
+    --accent: #a31f34;
+    --accent-hover: #750014;
+    --line: #2a2a2a;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'MIT Media Lab Font', ui-monospace, 'SF Mono', monospace;
+  font-weight: 400;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+  text-rendering: geometricPrecision;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }

@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "affective-computing",
+    "name": "Affective Computing",
+    "tagline": "Advancing human wellbeing by developing new ways to communicate, understand, and respond to emotion",
+    "iconCp": "U+E000",
+    "url": "https://www.media.mit.edu/groups/affective-computing/overview/"
+  },
+  {
+    "slug": "biomechatronics",
+    "name": "Biomechatronics",
+    "tagline": "Enhancing human physical capability",
+    "iconCp": "U+E001",
+    "url": "https://www.media.mit.edu/groups/biomechatronics/overview/"
+  },
+  {
+    "slug": "camera-culture",
+    "name": "Camera Culture",
+    "tagline": "Making the invisible visible\u2013inside our bodies, around us, and beyond\u2013for health, work, and connection",
+    "iconCp": "U+E002",
+    "url": "https://www.media.mit.edu/groups/camera-culture/overview/"
+  },
+  {
+    "slug": "center-for-constructive-communication",
+    "name": "Center for Constructive Communication",
+    "tagline": "Prototyping a better future for communication\nthrough human-led, AI-assisted systems for collective listening, understanding, and action",
+    "iconCp": "U+E003",
+    "url": "https://www.media.mit.edu/groups/center-for-constructive-communication/overview/"
+  },
+  {
+    "slug": "city-science",
+    "name": "City Science",
+    "tagline": "Looking beyond smart cities",
+    "iconCp": "U+E004",
+    "url": "https://www.media.mit.edu/groups/city-science/overview/"
+  },
+  {
+    "slug": "conformable-decoders",
+    "name": "Conformable Decoders",
+    "tagline": "Converting the patterns of nature and the human body into beneficial signals and energy",
+    "iconCp": "U+E005",
+    "url": "https://www.media.mit.edu/groups/conformable-decoders/overview/"
+  },
+  {
+    "slug": "critical-matter",
+    "name": "Critical Matter",
+    "tagline": "Designing across the scale, imagining a transformative future",
+    "iconCp": "U+E006",
+    "url": "https://www.media.mit.edu/groups/critical-matter/overview/"
+  },
+  {
+    "slug": "cyborg-psychology",
+    "name": "Cyborg Psychology",
+    "tagline": "Inventing, investigating, and inspiring human-AI systems for human flourishing",
+    "iconCp": "U+E007",
+    "url": "https://www.media.mit.edu/groups/cyborg-psychology/overview/"
+  },
+  {
+    "slug": "fluid-interfaces",
+    "name": "Fluid Interfaces",
+    "tagline": "Designing Systems for Cognitive Augmentation",
+    "iconCp": "U+E008",
+    "url": "https://www.media.mit.edu/groups/fluid-interfaces/overview/"
+  },
+  {
+    "slug": "future-sketches",
+    "name": "Future Sketches",
+    "tagline": "Exploring the essence of code as a creative medium",
+    "iconCp": "U+E009",
+    "url": "https://www.media.mit.edu/groups/future-sketches/overview/"
+  },
+  {
+    "slug": "human-dynamics",
+    "name": "Human Dynamics",
+    "tagline": "Exploring how social networks can influence our lives in business, health, governance, and technology adoption and diffusion",
+    "iconCp": "U+E00A",
+    "url": "https://www.media.mit.edu/groups/human-dynamics/overview/"
+  },
+  {
+    "slug": "lifelong-kindergarten",
+    "name": "Lifelong Kindergarten",
+    "tagline": "Engaging people in creative learning experiences",
+    "iconCp": "U+E00B",
+    "url": "https://www.media.mit.edu/groups/lifelong-kindergarten/overview/"
+  },
+  {
+    "slug": "molecular-machines",
+    "name": "Molecular Machines",
+    "tagline": "Engineering at the limits of complexity with molecular-scale parts",
+    "iconCp": "U+E00C",
+    "url": "https://www.media.mit.edu/groups/molecular-machines/overview/"
+  },
+  {
+    "slug": "multisensory-intelligence",
+    "name": "Multisensory Intelligence",
+    "tagline": "Creating human-AI symbiosis across scales and sensory mediums to enhance productivity, creativity, and wellbeing",
+    "iconCp": "U+E00D",
+    "url": "https://www.media.mit.edu/groups/multisensory-intelligence/overview/"
+  },
+  {
+    "slug": "nano-cybernetic-biotrek",
+    "name": "Nano-Cybernetic Biotrek",
+    "tagline": "Inventing disruptive technologies for nanoelectronic devices and creating new paradigms for life-machine symbiosis",
+    "iconCp": "U+E00E",
+    "url": "https://www.media.mit.edu/groups/nano-cybernetic-biotrek/overview/"
+  },
+  {
+    "slug": "opera-of-the-future",
+    "name": "Opera of the Future",
+    "tagline": "Extending expression, learning, and health through innovations in musical composition, performance, and participation",
+    "iconCp": "U+E00F",
+    "url": "https://www.media.mit.edu/groups/opera-of-the-future/overview/"
+  },
+  {
+    "slug": "personal-robots",
+    "name": "Personal Robots",
+    "tagline": "Building intelligent personified technologies that collaborate with people to help them learn, thrive, and flourish.",
+    "iconCp": "U+E010",
+    "url": "https://www.media.mit.edu/groups/personal-robots/overview/"
+  },
+  {
+    "slug": "responsive-environments",
+    "name": "Responsive Environments",
+    "tagline": "Augmenting and mediating human experience, interaction, and perception with sensor networks",
+    "iconCp": "U+E011",
+    "url": "https://www.media.mit.edu/groups/responsive-environments/overview/"
+  },
+  {
+    "slug": "sculpting-evolution",
+    "name": "Sculpting Evolution",
+    "tagline": "Cultivating wisdom through evolutionary and ecological engineering",
+    "iconCp": "U+E012",
+    "url": "https://www.media.mit.edu/groups/sculpting-evolution/overview/"
+  },
+  {
+    "slug": "signal-kinetics",
+    "name": "Signal Kinetics",
+    "tagline": "Inventing, building, and deploying wireless sensor technologies to address complex problems in society, industry, and ecology",
+    "iconCp": "U+E013",
+    "url": "https://www.media.mit.edu/groups/signal-kinetics/overview/"
+  },
+  {
+    "slug": "social-algorithms",
+    "name": "Social Algorithms",
+    "tagline": "Creating reliable, resilient, and convivial infrastructures grounded in human agency, safety, and dignity",
+    "iconCp": "U+E014",
+    "url": "https://www.media.mit.edu/groups/social-algorithms/overview/"
+  },
+  {
+    "slug": "space-enabled",
+    "name": "Space Enabled",
+    "tagline": "Advancing justice in Earth&#x27;s complex systems using designs enabled by space",
+    "iconCp": "U+E015",
+    "url": "https://www.media.mit.edu/groups/space-enabled/overview/"
+  },
+  {
+    "slug": "tangible-media",
+    "name": "Tangible Media",
+    "tagline": "Invent new tangible and embodied interactions that inspire and engage people",
+    "iconCp": "U+E016",
+    "url": "https://www.media.mit.edu/groups/tangible-media/overview/"
+  },
+  {
+    "slug": "viral-communications",
+    "name": "Viral Communications",
+    "tagline": "People and intelligent machines in a creative loop",
+    "iconCp": "U+E017",
+    "url": "https://www.media.mit.edu/groups/viral-communications/overview/"
+  }
+]
