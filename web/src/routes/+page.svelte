@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { base } from '$app/paths';
   import { GROUPS, GROUP_ICON_STRING, BRAND_SYMBOLS } from '$lib/groups';
 
   const FAMILY = 'MIT Media Lab Font';
@@ -139,7 +140,7 @@
             onclick={() => setTheme('system')}
           >System</button>
         </div>
-        <a class="download-all" href="/{PS}.zip" download>
+        <a class="download-all" href="{base}/{PS}.zip" download>
           <span class="dl-arrow">↓</span>
           <span class="dl-stack">
             <span class="dl-title">Download font</span>
@@ -320,7 +321,7 @@
       Each weight ships as both <strong>TTF</strong> and <strong>OTF</strong>.
     </p>
     <div class="dl-bundle">
-      <a class="bundle-link" href="/{PS}.zip" download="{PS}.zip">
+      <a class="bundle-link" href="{base}/{PS}.zip" download="{PS}.zip">
         <span class="bundle-name"><span class="mit-text">{MIT_MARK}</span><span>Media Lab Font.zip</span></span>
         <span class="bundle-meta">all 6 weights · TTF + OTF</span>
       </a>
@@ -333,8 +334,8 @@
             <span>Media Lab Font {w.name}</span>
           </div>
           <div class="dl-links">
-            <a href="/fonts/{PS}-{w.name}.ttf" download>TTF</a>
-            <a href="/fonts/{PS}-{w.name}.otf" download>OTF</a>
+            <a href="{base}/fonts/{PS}-{w.name}.ttf" download>TTF</a>
+            <a href="{base}/fonts/{PS}-{w.name}.otf" download>OTF</a>
           </div>
         </div>
       {/each}
@@ -360,7 +361,7 @@
       <article class="about-card">
         <h3>License</h3>
         <p class="about-license">
-          <a href="/LICENSE.txt">CC BY-NC-SA 4.0</a>
+          <a href="{base}/LICENSE.txt">CC BY-NC-SA 4.0</a>
           — Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
           Free to share and adapt with attribution; non-commercial use only; derivatives must use the same license.
         </p>
@@ -373,7 +374,7 @@
     <h2>How to cite</h2>
     <p class="meta-line">
       This work is licensed
-      <a href="/LICENSE.txt">CC BY-NC-SA 4.0</a>
+      <a href="{base}/LICENSE.txt">CC BY-NC-SA 4.0</a>
       (attribution required; non-commercial; share-alike).
       Use one of the forms below in papers, theses, software, or other works.
     </p>
@@ -427,7 +428,7 @@
 
   <footer>
     <p class="foot-line">
-      <a href="/LICENSE.txt">CC BY-NC-SA 4.0</a>
+      <a href="{base}/LICENSE.txt">CC BY-NC-SA 4.0</a>
       &nbsp;&middot;&nbsp; &copy; 2026
       <a href="mailto:nkosmyna@mit.edu">Nataliya Kosmyna</a>
       &amp;

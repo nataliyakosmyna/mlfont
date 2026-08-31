@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { assets } from '$app/paths';
   let { children } = $props();
 
   const SITE = 'MIT Media Lab Font';
@@ -14,7 +15,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content={SITE} />
   <meta property="og:description" content={DESC} />
-  <meta property="og:image" content="/og.png" />
+  <meta property="og:image" content="{assets}/og.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="MIT Media Lab Font — MIT wordmark and Media Lab mark" />
@@ -22,11 +23,11 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={SITE} />
   <meta name="twitter:description" content={DESC} />
-  <meta name="twitter:image" content="/og.png" />
+  <meta name="twitter:image" content="{assets}/og.png" />
 
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="icon" href="{assets}/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="{assets}/favicon.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="{assets}/apple-touch-icon.png" />
 </svelte:head>
 
 {@render children()}

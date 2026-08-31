@@ -100,10 +100,10 @@ def write_font_version() -> str:
     import re
     def repl(m: re.Match) -> str:
         path = m.group(1)
-        return f"url('{path}?{ver}')"
+        return f"url('fonts/{path}?{ver}')"
 
     new = re.sub(
-        r"url\('(/fonts/MITMediaLabFont-[^']+\.(?:ttf|otf))(?:\?[^']*)?'\)",
+        r"url\('(?:/)?fonts/(MITMediaLabFont-[^']+\.(?:ttf|otf))(?:\?[^']*)?'\)",
         repl,
         text,
     )

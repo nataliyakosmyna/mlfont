@@ -1,47 +1,47 @@
 @font-face {
   font-family: 'MIT Media Lab Font';
-  src: url('/fonts/MITMediaLabFont-Thin.ttf?v1788151140-22904') format('truetype'),
-       url('/fonts/MITMediaLabFont-Thin.otf?v1788151140-22904') format('opentype');
+  src: url('fonts/MITMediaLabFont-Thin.ttf?v1788152172-22904') format('truetype'),
+       url('fonts/MITMediaLabFont-Thin.otf?v1788152172-22904') format('opentype');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'MIT Media Lab Font';
-  src: url('/fonts/MITMediaLabFont-Light.ttf?v1788151140-22904') format('truetype'),
-       url('/fonts/MITMediaLabFont-Light.otf?v1788151140-22904') format('opentype');
+  src: url('fonts/MITMediaLabFont-Light.ttf?v1788152172-22904') format('truetype'),
+       url('fonts/MITMediaLabFont-Light.otf?v1788152172-22904') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'MIT Media Lab Font';
-  src: url('/fonts/MITMediaLabFont-Regular.ttf?v1788151140-22904') format('truetype'),
-       url('/fonts/MITMediaLabFont-Regular.otf?v1788151140-22904') format('opentype');
+  src: url('fonts/MITMediaLabFont-Regular.ttf?v1788152172-22904') format('truetype'),
+       url('fonts/MITMediaLabFont-Regular.otf?v1788152172-22904') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'MIT Media Lab Font';
-  src: url('/fonts/MITMediaLabFont-Medium.ttf?v1788151140-22904') format('truetype'),
-       url('/fonts/MITMediaLabFont-Medium.otf?v1788151140-22904') format('opentype');
+  src: url('fonts/MITMediaLabFont-Medium.ttf?v1788152172-22904') format('truetype'),
+       url('fonts/MITMediaLabFont-Medium.otf?v1788152172-22904') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'MIT Media Lab Font';
-  src: url('/fonts/MITMediaLabFont-Bold.ttf?v1788151140-22904') format('truetype'),
-       url('/fonts/MITMediaLabFont-Bold.otf?v1788151140-22904') format('opentype');
+  src: url('fonts/MITMediaLabFont-Bold.ttf?v1788152172-22904') format('truetype'),
+       url('fonts/MITMediaLabFont-Bold.otf?v1788152172-22904') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'MIT Media Lab Font';
-  src: url('/fonts/MITMediaLabFont-Black.ttf?v1788151140-22904') format('truetype'),
-       url('/fonts/MITMediaLabFont-Black.otf?v1788151140-22904') format('opentype');
+  src: url('fonts/MITMediaLabFont-Black.ttf?v1788152172-22904') format('truetype'),
+       url('fonts/MITMediaLabFont-Black.otf?v1788152172-22904') format('opentype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
