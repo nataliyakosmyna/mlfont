@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "build:pages": "BASE_PATH=/mlfont vite build",
+    "build:pages": "PUBLIC_SITE_URL=https://nataliyakosmyna.github.io/mlfont BASE_PATH=/mlfont vite build",
     "preview": "vite preview",
     "fonts": "python3 ../src/build_release.py --skip-tests --skip-screenshots"
   },

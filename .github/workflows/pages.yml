@@ -1,3 +1,6 @@
+# First deploy: enable Pages at https://github.com/nataliyakosmyna/mlfont/settings/pages
+# → Build and deployment → Source → GitHub Actions, then re-run this workflow.
+
 name: Deploy to GitHub Pages
 
 on:
@@ -31,7 +34,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: npm
           cache-dependency-path: web/package-lock.json
 
@@ -42,11 +45,12 @@ jobs:
         working-directory: web
         env:
           BASE_PATH: /${{ github.event.repository.name }}
+          PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
         run: |
           npm ci
           npm run build
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: web/build
 
