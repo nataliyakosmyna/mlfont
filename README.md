@@ -213,7 +213,7 @@ re-run `npm run build`.
 - **Nataliya Kosmyna**
 - **Eugene Hauptmann**
 
-MIT Media Lab.
+Note that this project is not an official MIT Media Lab's font site and is not endorsed by the lab.
 
 ## Reference / inspiration
 
