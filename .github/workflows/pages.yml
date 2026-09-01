@@ -1,5 +1,6 @@
-# First deploy: enable Pages at https://github.com/nataliyakosmyna/mlfont/settings/pages
-# → Build and deployment → Source → GitHub Actions, then re-run this workflow.
+# Pages must use Source: GitHub Actions (not "Deploy from a branch").
+# Branch / root serves README via Jekyll — that is NOT this site.
+# https://github.com/nataliyakosmyna/mlfont/settings/pages
 
 name: Deploy to GitHub Pages
 
@@ -61,5 +62,21 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Verify Pages uses GitHub Actions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          BUILD_TYPE=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq .build_type 2>/dev/null || echo missing)
+          if [ "${BUILD_TYPE}" != "workflow" ]; then
+            echo "::error::GitHub Pages is serving the repo root (README via Jekyll), not the web demo."
+            echo ""
+            echo "Current Pages build_type=${BUILD_TYPE} (need: workflow)."
+            echo "Fix: https://github.com/${GITHUB_REPOSITORY}/settings/pages"
+            echo "  Build and deployment → Source → GitHub Actions"
+            echo "Then re-run this workflow."
+            exit 1
+          fi
+
       - id: deployment
         uses: actions/deploy-pages@v4
