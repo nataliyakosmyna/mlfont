@@ -1,6 +1,6 @@
 # MIT Media Lab Font
 
-A 7×7 grid typeface in the spirit of the MIT Media Lab generative identity.
+A 7×7 grid typeface in the spirit of the MIT Media Lab's generative identity.
 Generated programmatically from a single centerline-stroke source, with six
 weights and a built-in demo site.
 
@@ -220,11 +220,10 @@ MIT Media Lab.
 The typeface's visual language — chunky horizontals and verticals on a
 7×7 grid, no curves, no diagonals — comes from the MIT Media Lab
 generative identity system designed by E Roon Kang & Richard The. The
-glyphs below are the group marks for each Media Lab research group;
-they are abstract symbols, not letters. This font extracts the visual
-grammar (block strokes, integer-cell alignment, generative construction)
-and applies it to a real type system covering uppercase, lowercase,
-numerals and punctuation.
+glyphs below are the group marks for each of Media Lab's research group. 
+This font extracts the visual grammar (block strokes, integer-cell alignment, 
+generative construction) and applies it to a real type system covering uppercase, 
+lowercase, numerals and punctuation.
 
 ![Reference: MIT Media Lab group glyphs](docs/screenshots/reference-inspiration.png)
 
